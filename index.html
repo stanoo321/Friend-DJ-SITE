@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+    <link rel="icon" href="/images/kizer_logo_nav_dj.png">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Official Kizer</title>
+    </head>
+    <body>
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="kizerNavbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="images/kizer_logo_nav_dj.png" height="90" width="90"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kizerNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse id="kizerNavbar">
+                    <ul class="navbar-nav ml-auto pr-5 pl-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#release">
+                                RELEASES
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#livestream">
+                                LIVE STREAMS
+                            </a>
+                        </li>
+                        <li class="nav-itemm">
+                            <a class="nav-link" href="store.html">
+                                SHOP
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+
+
+        <!-- HERO IMAGE -->
+        <section id="home" class="container-fluid kizer_hero vh-100 img-fluid d-flex">
+        </section>
+        <!-- LATEST RELEASES -->
+
+        <div id="release" class="container-fluid vh-75 latest_release">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 text-center mb-2 mt-2">
+                    <p class="h3 text-white">Latest Release</p>
+                    <br>
+                    <img class="img-fluid ringa_rang_img" src="/images/ringa_rang_dj.png" alt="">
+                    <br>
+                    <p class="h2 text-white mt-2">Click Here for More Tracks</p>
+                    <button class="btn sound_cloud_button text-white mt-4"> Sound Cloud
+                        <a href="https://soundcloud.com/kizer10"></a>
+                    </button>
+                </div>
+                <div class="col-md-4 d-flex align-self-center">
+                    <iframe  width="75%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1174799620&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                        <div id="lr"><a href="https://soundcloud.com/kizer10" title="Kizer" target="_blank"></a> · <a href="https://soundcloud.com/kizer10/sets/ringa-rang-out-now" title="RINGA RANG OUT NOW" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+        <!-- LIVESTREAMS  -->
+        <section id="livestream" class="container-fluid vh-100 img-fluid d-flex align-items-center live_events">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <p class="display-4 font-weight-bold text-center text-white mb-5"><u>LIVESTREAMS</u></p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <div class="card bg-secondary border-dark text-white">
+                            <img class="img-fluid card-img-top" src="./images/feb_card_head.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Cupid's Bassment!</p>
+                                <p class="card-text">February 14, 2021 <br> 8:00 pm - 10:00 pm <br> Facebook Live</p>
+                                <button id="rsvpBtn" class="btn btn-info">RSVP</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="card bg-secondary border-dark text-white">
+                            <img class="img-fluid card-img-top" src="images/march_card_header.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Shamrocking Out!</p>
+                                <p class="card-text">March 17, 2021 <br> 8:00 pm - 10:00 pm <br> Facebook Live</p>
+                                <button id="rsvpBtn2" class="btn btn-info">RSVP</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="card bg-secondary border-dark text-white">
+                            <img class="img-fluid card-img-top" src="images/may_card_header.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Arriba el Cinco!</p>
+                                <p class="card-text">May 5, 2021 <br> 8:00 pm - 10:00 pm <br> Facebook Live</p>
+                                <button id="rsvpBtn3" class="btn btn-info">RSVP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP MODAL -->
+        <div id="facebookModal" class="modal" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Facebook Login</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginEmail">Email adress</label>
+                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label for="loginPassword" class="sr-only">Password</label>
+                                        <input type="text" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary btn-sm ml-1">Sign in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-md-4 text-white">
+                        <ul class="list-unstyled">
+                            <li> <a class="text-white" href="#home"> Back Up</a></li>
+                            <li> <a class="text-white" href="#">About</a></li>
+                            <li> <a class="text-white" href="#release">New Releases</a></li>
+                            <li> <a class="text-white" href="#livestream">Livestream</a></li>
+                            <li> <a class="text-white" href="#">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <a href="https://soundcloud.com/kizer10"><i class="text-white fa fa-soundcloud fa-lg"></i></a>
+                        <a href=""><i class="text-white fa fa-instagram fa-lg"></i></a>
+                        <a href=""><i class="text-white fa fa-facebook fa-lg"></i></a>
+                        <a href=""><i class="text-white fa fa-youtube-play fa-lg"></i></a>
+                        <br>
+                        <a class="text-white" href="">
+                            <i class="mt-3 text-white fa fa-copyright"></i> Kizer 2021
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="text-white">Sign up for new releses</p>
+                        <input id="emailInput" type="text" placeholder="E-mail">
+                        <button class="btn btn-sm btn-light" id="signUpButton"> Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- SIGN UP MOODAL -->
+            <div id="signUpModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p class="h2">Thank you for siging up</p>
+                            <button type="button" class="close" id="se">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>You'll be notified when new tracks drop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        
+
+
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="javascript/script.js"></script>
+    </body>
+    </html>
+</body>
+</html>

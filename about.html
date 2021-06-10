@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+   <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="kizerNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"> <img src="images/kizer_logo_nav_dj.png" height="100" width="100"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kizerNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse id="kizerNavbar">
+                <ul class="navbar-nav ml-auto pr-5 pl-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <i class="fa-lg"></i> ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#release">
+                            <i class=" fa-lg"></i> RELEASES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-lg"></i> LIVE EVENTS
+                        </a>
+                    </li>
+                    <li class="nav-itemm">
+                        <a class="nav-link" href="/store.html">
+                            <i class="fa-lg"></i> SHOP
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="home" class="container-fluid kizer_hero vh-100 img-fluid d-flex">
+    </section>
+    <div class="black-bg container-fluid">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <p class="h2 text-white text-center mt-5">KIZER</p>
+                    <p class="text-white">
+                        Dylan Gendelman AKA Kizer has been producing music for over 8 years. After graduating from Icon Music Collective, he went to University of Colorado - Denver to study music production. Kizer specializes in Mid-tempo and electro-funk house but continues to push the genre boundaries. His favorite food is tacos and is a hot sauce aficonado.
+                    </p>
+            </div>
+            <div class="col-md-4">
+                <img id="djSolo" class="img-fluid" src="images/dj_kizer_dj.jpg" alt="djSolo">
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4 text-white">
+                    <ul class="list-unstyled">
+                        <li> <a class="text-white" href="#home"> Back Up</a></li>
+                        <li> <a class="text-white" href="#">About</a></li>
+                        <li> <a class="text-white" href="#release">New Releases</a></li>
+                        <li> <a class="text-white" href="#livestream">Livestream</a></li>
+                        <li> <a class="text-white" href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <a href="https://soundcloud.com/kizer10"><i class="text-white fa fa-soundcloud fa-lg"></i></a>
+                    <a href=""><i class="text-white fa fa-instagram fa-lg"></i></a>
+                    <a href=""><i class="text-white fa fa-facebook fa-lg"></i></a>
+                    <a href=""><i class="text-white fa fa-youtube-play fa-lg"></i></a>
+                    <br>
+                    <a class="text-white" href="">
+                        <i class="mt-3 text-white fa fa-copyright"></i> Kizer 2021
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-white">Sign up for new releses</p>
+                    <input id="emailInput" type="text" placeholder="E-mail">
+                    <button class="btn btn-sm btn-light" id="signUpButton"> Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- SIGN UP MOODAL -->
+        <div id="signUpModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="h2">Thank you for siging up</p>
+                        <button type="button" class="close" id="se">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>You'll be notified when new tracks drop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
