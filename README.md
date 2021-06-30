@@ -1,2 +1,2 @@
-# Friend-DJ-SITE
+# Kizersite
 A friend ask to create a dj site for him
